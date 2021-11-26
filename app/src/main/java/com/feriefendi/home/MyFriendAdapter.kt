@@ -27,8 +27,11 @@ ArrayList<MyFriend>):
             RecyclerView.ViewHolder(containerView), LayoutContainer{
                 fun bindItem(item:MyFriend){
                     txtFriendName.text=item.nama
+                    txtFriendjkel.text=item.jkel
                     txtFriendEmail.text=item.email
                     txtFriendTelp.text=item.telp
+                    txtFriendAlamat.text=item.alamat
+
                 }
             }
 

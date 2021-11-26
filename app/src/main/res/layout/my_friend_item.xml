@@ -16,6 +16,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/txtFriendjkel"
+        android:text="Jenis Kelamin"
+        android:textSize="16sp"
+        android:textColor="#000051"
+        android:layout_marginTop="6dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/txtFriendEmail"
         android:text="Email"
         android:textStyle="italic"
@@ -26,6 +34,14 @@
         android:layout_height="wrap_content"
         android:id="@+id/txtFriendTelp"
         android:text="Telepon"
+        android:textSize="16sp"
+        android:textColor="#000051"
+        android:layout_marginTop="6dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFriendAlamat"
+        android:text="Alamat"
         android:textSize="16sp"
         android:textColor="#000051"
         android:layout_marginTop="6dp"/>
